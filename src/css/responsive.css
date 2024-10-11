@@ -1,0 +1,263 @@
+/* Responsive Styles */
+
+@media (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+
+  .navbar {
+    padding: 0.5rem 2rem;
+  }
+
+  .logo {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .brand-name {
+    font-size: 2rem;
+  }
+
+  .nav-options {
+    display: none;
+  }
+
+  .hero-div {
+    width: 100%;
+
+    & h1 {
+      font-size: 7rem;
+    }
+
+    & h1::before {
+      font-size: 2.5rem;
+      white-space: nowrap;
+    }
+
+    & p {
+      font-size: 2.8rem;
+    }
+  }
+
+  .buttons {
+    gap: 2rem;
+  }
+
+  .chat-section {
+    height: 90vh;
+  }
+
+  .chat-container {
+    height: 72vh;
+    width: 90%;
+  }
+
+  .text {
+    font-size: 1.5rem;
+  }
+
+  .delete-icon {
+    height: 4rem;
+  }
+
+  .chat-input {
+    height: 5rem;
+    padding-bottom: 1rem;
+
+    & input[type="text"] {
+      height: 5rem;
+      font-size: 1.5rem;
+    }
+
+    & button {
+      height: 5rem;
+      font-size: 1.8rem;
+    }
+  }
+
+  footer {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+
+  .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .logo {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .brand-name {
+    font-size: 2.5rem;
+  }
+
+  .nav-options {
+    display: none;
+  }
+
+  .hero-div {
+    width: 100%;
+
+    & h1 {
+      font-size: 8rem;
+    }
+
+    & h1::before {
+      font-size: 2.7rem;
+      white-space: nowrap;
+    }
+
+    & p {
+      font-size: 3rem;
+    }
+  }
+
+  .buttons {
+    gap: 2.5rem;
+  }
+
+  .chat-section {
+    height: 90vh;
+  }
+
+  .chat-container {
+    height: 72vh;
+    width: 90%;
+  }
+
+  .text {
+    font-size: 1.7rem;
+  }
+
+  .delete-icon {
+    height: 5rem;
+  }
+
+  .chat-input {
+    height: 6rem;
+    padding-bottom: 1rem;
+
+    & input[type="text"] {
+      height: 6rem;
+      font-size: 1.6rem;
+    }
+
+    & button {
+      height: 6rem;
+      font-size: 1.8rem;
+    }
+  }
+
+  footer {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  html {
+    font-size: 58%;
+  }
+
+  .navbar {
+    padding: 1.2rem 2rem;
+  }
+
+  .logo {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .brand-name {
+    font-size: 2.8rem;
+  }
+
+  .nav-options {
+    display: none;
+  }
+
+  .hero-div {
+    width: 100%;
+
+    & h1 {
+      font-size: 9rem;
+    }
+
+    & h1::before {
+      font-size: 3rem;
+      white-space: nowrap;
+    }
+
+    & p {
+      font-size: 3.2rem;
+    }
+  }
+
+  .buttons {
+    gap: 2.5rem;
+  }
+
+  .chat-section {
+    height: 90vh;
+  }
+
+  .chat-container {
+    height: 72vh;
+    width: 90%;
+  }
+
+  .text {
+    font-size: 2rem;
+  }
+
+  .delete-icon {
+    height: 5rem;
+  }
+
+  .chat-input {
+    height: 6rem;
+    padding-bottom: 1rem;
+
+    & input[type="text"] {
+      height: 6rem;
+      font-size: 2rem;
+    }
+
+    & button {
+      height: 6rem;
+      font-size: 1.8rem;
+    }
+  }
+
+  footer {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+  html {
+    font-size: 60%;
+  }
+  .hero-div {
+    width: 100%;
+
+    & h1 {
+      font-size: 9rem;
+    }
+
+    & h1::before {
+      font-size: 3rem;
+      white-space: nowrap;
+    }
+
+    & p {
+      font-size: 3.2rem;
+    }
+  }
+}
